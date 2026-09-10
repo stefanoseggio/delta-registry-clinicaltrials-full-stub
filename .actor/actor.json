@@ -1,0 +1,23 @@
+{
+  "$schema": "https://apify.com/schemas/v1/actor.ide.json",
+  "actorSpecification": 1,
+  "name": "actor-24-clinical-trials-delta-engine",
+  "title": "ClinicalTrials.gov + FDA Orange Book - Trial Delta API",
+  "description": "Delta-tracks ClinicalTrials.gov trial status changes (RECRUITING, COMPLETED, TERMINATED) and FDA Orange Book patent/exclusivity data against verified live public APIs. Fingerprint-based diffing delivers only new or changed records per run, with full-jitter retry and strict ISO 8601 timestamps.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "minMemoryMbytes": 256,
+  "maxMemoryMbytes": 1024,
+  "meta": {
+    "templateId": "ts-crawlee-cheerio"
+  },
+  "inputSchema": "./input_schema.json",
+  "outputSchema": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "dockerfile": "../Dockerfile",
+  "categories": [
+    "BUSINESS"
+  ]
+}
