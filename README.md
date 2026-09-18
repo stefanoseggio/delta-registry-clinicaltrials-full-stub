@@ -51,3 +51,8 @@ No scheduling, no delta/change-tracking between runs, no FDA Orange Book source,
 For scheduled runs, real fingerprint-based delta tracking (NEW_TRIAL/STATUS_CHANGE events only, unchanged trials never re-billed), the FDA Orange Book source, and full reliability guarantees: **https://apify.com/stefano_seggio/actor-24-clinical-trials-delta-engine**
 
 Pay-per-event: $0.002 per new/changed record, $0.00005 per run start.
+
+## License
+
+MIT - see [LICENSE](LICENSE). This sample script is free and unrestricted;
+it is not the production actor's source.
